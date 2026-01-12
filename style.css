@@ -1,0 +1,139 @@
+/* Core Styling */
+body {
+    background-color: #f4f7f6;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #333;
+}
+
+/* Navbar Premium Look */
+.navbar-custom {
+    background-color: #000000;
+    padding: 15px 0;
+    border-bottom: 3px solid #cc0000;
+}
+
+.navbar-brand {
+    letter-spacing: 3px;
+    font-weight: 900 !important;
+    font-size: 1.5rem;
+}
+
+/* Sidebar Styling */
+.main-wrapper {
+    display: flex;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    border: none;
+    margin-top: 20px;
+}
+
+.sidebar-kain {
+    width: 260px;
+    background: #ffffff;
+    border-right: 1px solid #edf2f7;
+    flex-shrink: 0;
+}
+
+.sidebar-header {
+    padding: 25px 20px;
+    font-weight: 800;
+    font-size: 14px;
+    color: #1a202c;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #edf2f7;
+}
+
+.nav-kategori .nav-link {
+    color: #4a5568 !important;
+    padding: 15px 25px;
+    font-size: 13px;
+    font-weight: 600;
+    border-bottom: none;
+    transition: all 0.3s ease;
+}
+
+.nav-kategori .nav-link:hover {
+    background: #fff5f5;
+    color: #cc0000 !important;
+    padding-left: 30px;
+}
+
+.nav-kategori .nav-link.active {
+    background: #fff5f5;
+    color: #cc0000 !important;
+    border-right: 4px solid #cc0000;
+    font-weight: 700;
+}
+
+/* Card Product Styling */
+.card-kain {
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    background: #fff;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card-kain:hover {
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    transform: translateY(-8px);
+    border-color: #cc0000;
+}
+
+.img-box {
+    background: #f8fafc;
+    padding: 30px;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+}
+
+.info-box {
+    padding: 20px;
+}
+
+.harga-box {
+    color: #cc0000;
+    font-weight: 850;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Button Styling */
+.btn-beli {
+    background: linear-gradient(135deg, #e53e3e 0%, #b91c1c 100%);
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    font-weight: 700;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+}
+
+.btn-beli:hover {
+    background: linear-gradient(135deg, #b91c1c 0%, #991b1b 100%);
+    box-shadow: 0 5px 15px rgba(204, 0, 0, 0.3);
+    color: white;
+}
+
+/* Detail Purchase Styling */
+.card-detail {
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+.form-control-lg {
+    border-radius: 10px;
+    font-size: 1rem;
+    border: 2px solid #edf2f7;
+}
+
+.form-control-lg:focus {
+    border-color: #cc0000;
+    box-shadow: none;
+}
+
