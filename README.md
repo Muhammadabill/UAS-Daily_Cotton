@@ -20,17 +20,30 @@ Daily Cotton hadir untuk menjawab tantangan efisiensi dalam transaksi jual-beli 
 
 ## 📂 Struktur Proyek (MVC Pattern)
 Aplikasi ini menggunakan arsitektur yang terorganisir untuk memisahkan logika bisnis, tampilan, dan aset:
+# Daily Cotton - Fabric Sales Management System 🧵
+
+### 👤 Identitas Pengembang
+* **Nama** : Muhamad Nabil Satriya Suntara
+* **NIM** : 312410365
+* **Kelas** : TI.24.A4
+* **Mata Kuliah** : Pemrograman Web
+
+---
+
+## 🚀 Tentang Daily Cotton
+**Daily Cotton** adalah platform manajemen penjualan kain (Cotton Combed) berbasis web. Aplikasi ini mendigitalisasi alur bisnis toko tekstil, mulai dari katalog inventaris hingga pelaporan data transaksi bagi pengelola.
+
+## 📂 Struktur Proyek (Architecture)
+Aplikasi ini menggunakan pola struktur yang memisahkan logika (App), tampilan (Views), dan aset (Assets):
+
+```
 DAILY_COTTON/
 ├── app/
-│   ├── Controller.php      # Logika utama aplikasi (Routing & Data Handling)
-│   └── Database.php        # Konfigurasi koneksi (jika ada)
+│   ├── Controller.php      # Logika utama (Routing & Data Handling)
+│   └── Database.php        # Konfigurasi data (LocalStorage/DB)
 ├── assets/
 │   ├── css/
 │   │   └── style.css       # Kustomisasi gaya tampilan (UI/UX)
-│   ├── js/
-│   │   ├── admin.js        # Fungsi pengelolaan data oleh admin
-│   │   ├── beli.js         # Validasi pembelian (Minimal 1.5kg) & Hitung Total
-│   │   └── auth.js         # Logika autentikasi & session
 │   └── img/                # Media dan aset gambar produk
 ├── views/
 │   ├── admin_home.php      # Dashboard utama untuk Admin
@@ -41,8 +54,8 @@ DAILY_COTTON/
 │   ├── riwayat.php         # Riwayat belanja sisi pelanggan
 │   ├── struk_berhasil.php  # Template struk digital (Invoice)
 │   └── user_home.php       # Katalog produk utama (Klien)
-├── .htaccess               # Konfigurasi URL Friendly (Routing)
-└── index.php               # Front Controller (Gerbang utama aplikasi)
+├── .htaccess               # Konfigurasi URL Friendly
+└── index.php               # Gerbang utama aplikasi
 
 ## ✨ Fitur Utama
 ### 🛒 Sisi Pelanggan
