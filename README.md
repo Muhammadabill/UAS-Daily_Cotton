@@ -20,16 +20,29 @@ Daily Cotton hadir untuk menjawab tantangan efisiensi dalam transaksi jual-beli 
 
 ## 📂 Struktur Proyek (MVC Pattern)
 Aplikasi ini menggunakan arsitektur yang terorganisir untuk memisahkan logika bisnis, tampilan, dan aset:
-
-* **`app/`**: Berisi `Controller.php` yang berfungsi sebagai logika utama aplikasi dan pengatur alur data.
-* **`assets/`**: Menyimpan file pendukung seperti `style.css` dan gambar untuk antarmuka pengguna.
-* **`views/`**: Folder pusat semua tampilan (User Interface):
-    * `admin_home.php`: Dasbor utama pengelola.
-    * `beli_detail.php`: Halaman checkout dengan sistem validasi minimal 1.5kg.
-    * `login.php`: Gerbang autentikasi pengguna.
-    * `riwayat.php`: Log transaksi pelanggan.
-    * `data_pelanggan.php`: Database pesanan masuk untuk admin.
-* **`.htaccess` & `index.php`**: Mengatur sistem routing agar URL aplikasi terlihat bersih.
+DAILY_COTTON/
+├── app/
+│   ├── Controller.php      # Logika utama aplikasi (Routing & Data Handling)
+│   └── Database.php        # Konfigurasi koneksi (jika ada)
+├── assets/
+│   ├── css/
+│   │   └── style.css       # Kustomisasi gaya tampilan (UI/UX)
+│   ├── js/
+│   │   ├── admin.js        # Fungsi pengelolaan data oleh admin
+│   │   ├── beli.js         # Validasi pembelian (Minimal 1.5kg) & Hitung Total
+│   │   └── auth.js         # Logika autentikasi & session
+│   └── img/                # Media dan aset gambar produk
+├── views/
+│   ├── admin_home.php      # Dashboard utama untuk Admin
+│   ├── data_pelanggan.php  # Database detail pesanan pelanggan
+│   ├── login.php           # Halaman masuk (Sign In)
+│   ├── registrasi.php      # Halaman pendaftaran (Sign Up)
+│   ├── beli_detail.php     # Halaman checkout & detail produk
+│   ├── riwayat.php         # Riwayat belanja sisi pelanggan
+│   ├── struk_berhasil.php  # Template struk digital (Invoice)
+│   └── user_home.php       # Katalog produk utama (Klien)
+├── .htaccess               # Konfigurasi URL Friendly (Routing)
+└── index.php               # Front Controller (Gerbang utama aplikasi)
 
 ## ✨ Fitur Utama
 ### 🛒 Sisi Pelanggan
