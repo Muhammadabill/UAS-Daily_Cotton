@@ -8,12 +8,17 @@
 
 ---
 
+## 🔗 Tautan Penting (Links)
+- **🎥 Penjelasan Video (YouTube): https://youtu.be/LwVkodtdEac?si=6nHKwlOQ7P9BLKK-**
+- **🌐 Website Demo:** 
+---
+
 ## 🚀 Tentang Daily Cotton
 **Daily Cotton** adalah solusi platform manajemen penjualan kain (Cotton Combed) berbasis web. Aplikasi ini dirancang untuk mendigitalisasi alur bisnis toko tekstil, mulai dari manajemen inventaris kain, proses pemesanan pelanggan, hingga pelaporan data transaksi bagi pemilik bisnis.
 
 Daily Cotton hadir untuk menjawab tantangan efisiensi dalam transaksi jual-beli kain kiloan. Dengan sistem ini, toko dapat menerapkan aturan bisnis secara otomatis dan mengelola database pelanggan secara terintegrasi dalam satu dasbor.
 
-
+---
 
 [Image of MVC Architecture diagram for web applications]
 
