@@ -56,6 +56,7 @@ DAILY_COTTON/
 │   └── user_home.php       # Katalog produk utama (Klien)
 ├── .htaccess               # Konfigurasi URL Friendly
 └── index.php               # Gerbang utama aplikasi
+```
 
 ## ✨ Fitur Utama
 ### 🛒 Sisi Pelanggan
@@ -81,5 +82,5 @@ DAILY_COTTON/
 2. Clone repositori ini ke dalam direktori root server Anda (misal: `htdocs`).
 3. Akses melalui browser di alamat `http://localhost/DAILY_COTTON`.
 
----
+
 © 2026 **Daily Cotton Indonesia** - *Best Fabric, Best Quality.*
